@@ -1,0 +1,5 @@
+exportPattern("^[^\\.]")
+useDynLib(evdbayes)
+importFrom("graphics", "matplot")
+importFrom("stats", "optim", "quantile")
+
